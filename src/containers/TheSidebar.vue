@@ -6,12 +6,14 @@
     @update:show="(value) => $store.commit('set', ['sidebarShow', value])"
   >
     <CSidebarBrand class="d-md-down-none" to="/">
+    WBS NODE     
       <CIcon 
         class="c-sidebar-brand-full" 
-        name="logo" 
+        name="cif-id" 
         size="custom-size" 
         :height="35" 
         viewBox="0 0 556 134"
+        style="width: 80px; padding-left: 17px"
       />
       <CIcon 
         class="c-sidebar-brand-minimized" 

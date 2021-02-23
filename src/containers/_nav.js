@@ -6,7 +6,13 @@ export default [
         _name: 'CSidebarNavItem',
         name: 'Dashboard',
         to: '/dashboard',
-        icon: 'cil-speedometer',
+        icon: 'cil-speedometer'
+      },
+      {
+        _name: 'CSidebarNavItem',
+        name: 'Sender',
+        to: '/sender',
+        icon: 'cil-send',
         badge: {
           color: 'primary',
           text: 'NEW'
@@ -185,7 +191,6 @@ export default [
         icon: 'cil-calculator',
         badge: {
           color: 'primary',
-          text: 'NEW',
           shape: 'pill'
         }
       },
@@ -220,22 +225,6 @@ export default [
             to: '/pages/500'
           }
         ]
-      },
-      {
-        _name: 'CSidebarNavItem',
-        name: 'Download CoreUI',
-        href: 'http://coreui.io/vue/',
-        icon: { name: 'cil-cloud-download', class: 'text-white' },
-        _class: 'bg-success text-white',
-        target: '_blank'
-      },
-      {
-        _name: 'CSidebarNavItem',
-        name: 'Try CoreUI PRO',
-        href: 'http://coreui.io/pro/vue/',
-        icon: { name: 'cil-layers', class: 'text-white' },
-        _class: 'bg-danger text-white',
-        target: '_blank'
       }
     ]
   }

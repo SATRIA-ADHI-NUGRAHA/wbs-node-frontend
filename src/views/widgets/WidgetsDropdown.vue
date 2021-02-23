@@ -1,7 +1,7 @@
 <template>
   <CRow>
-    <CCol sm="6" lg="3">
-      <CWidgetDropdown color="primary" header="9.823" text="Members online">
+    <CCol sm="6" lg="6">
+      <CWidgetDropdown color="success" header="9.823" text="Members online">
         <template #default>
           <CDropdown
             color="transparent p-0"
@@ -29,8 +29,8 @@
         </template>
       </CWidgetDropdown>
     </CCol>
-    <CCol sm="6" lg="3">
-      <CWidgetDropdown color="info" header="9.823" text="Members online">
+    <CCol sm="6" lg="6">
+      <CWidgetDropdown color="warning" header="5.400" text="Members ofline">
         <template #default>
           <CDropdown
             color="transparent p-0"
@@ -60,71 +60,6 @@
         </template>
       </CWidgetDropdown>
     </CCol>
-    <CCol sm="6" lg="3">
-      <CWidgetDropdown
-        color="warning"
-        header="9.823"
-        text="Members online"
-      >
-        <template #default>
-          <CDropdown
-            color="transparent p-0"
-            placement="bottom-end"
-          >
-            <template #toggler-content>
-              <CIcon name="cil-settings"/>
-            </template>
-            <CDropdownItem>Action</CDropdownItem>
-            <CDropdownItem>Another action</CDropdownItem>
-            <CDropdownItem>Something else here...</CDropdownItem>
-            <CDropdownItem disabled>Disabled action</CDropdownItem>
-          </CDropdown>
-        </template>
-        <template #footer>
-          <CChartLineSimple
-            class="mt-3"
-            style="height:70px"
-            background-color="rgba(255,255,255,.2)"
-            :data-points="[78, 81, 80, 45, 34, 12, 40]"
-            :options="{ elements: { line: { borderWidth: 2.5 }}}"
-            point-hover-background-color="warning"
-            label="Members"
-            labels="months"
-          />
-        </template>
-      </CWidgetDropdown>
-    </CCol>
-    <CCol sm="6" lg="3">
-      <CWidgetDropdown
-        color="danger"
-        header="9.823"
-        text="Members online"
-      >
-        <template #default>
-          <CDropdown
-            color="transparent p-0"
-            placement="bottom-end"
-          >
-            <template #toggler-content>
-             <CIcon name="cil-settings"/>
-            </template>
-            <CDropdownItem>Action</CDropdownItem>
-            <CDropdownItem>Another action</CDropdownItem>
-            <CDropdownItem>Something else here...</CDropdownItem>
-            <CDropdownItem disabled>Disabled action</CDropdownItem>
-          </CDropdown>
-        </template>
-        <template #footer>
-          <CChartBarSimple
-            class="mt-3 mx-3"
-            style="height:70px"
-            background-color="rgb(250, 152, 152)"
-            label="Members"
-            labels="months"
-          />
-        </template>
-      </CWidgetDropdown>
-    </CCol>
   </CRow>
 </template>
 
@@ -133,6 +68,7 @@ import { CChartLineSimple, CChartBarSimple } from '../charts/index.js'
 
 export default {
   name: 'WidgetsDropdown',
+  // eslint-disable-next-line vue/no-unused-components
   components: { CChartLineSimple, CChartBarSimple }
 }
 </script>

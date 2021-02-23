@@ -29,7 +29,8 @@ import {
   cifIn,
   cifFr,
   cifEs,
-  cifPl
+  cifPl,
+  cifId
 } from '@coreui/icons'
 import {
   cilArrowRight,
@@ -46,6 +47,7 @@ import {
   cilCheckCircle,
   cilCommentSquare,
   cilCursor,
+  cilDelete,
   cilDrop,
   cilDollar,
   cilEnvelopeClosed,
@@ -59,6 +61,7 @@ import {
   cilLayers,
   cilLightbulb,
   cilList,
+  cilLoopCircular,
   cilLocationPin,
   cilLockLocked,
   cilMagnifyingGlass,
@@ -67,6 +70,7 @@ import {
   cilPencil,
   cilPeople,
   cilPuzzle,
+  cilSend,
   cilSettings,
   cilShieldAlt,
   cilSpeech,
@@ -99,6 +103,7 @@ export const iconsSet = Object.assign(
     cilCheckCircle,
     cilCommentSquare,
     cilCursor,
+    cilDelete,
     cilDrop,
     cilDollar,
     cilEnvelopeClosed,
@@ -112,6 +117,7 @@ export const iconsSet = Object.assign(
     cilLayers,
     cilLightbulb,
     cilList,
+    cilLoopCircular,
     cilLocationPin,
     cilLockLocked,
     cilMagnifyingGlass,
@@ -120,6 +126,7 @@ export const iconsSet = Object.assign(
     cilPencil,
     cilPeople,
     cilPuzzle,
+    cilSend,
     cilSettings,
     cilShieldAlt,
     cilSpeech,
@@ -137,7 +144,8 @@ export const iconsSet = Object.assign(
     cifIn,
     cifFr,
     cifEs,
-    cifPl
+    cifPl,
+    cifId
   },
   {
     cibFacebook,
